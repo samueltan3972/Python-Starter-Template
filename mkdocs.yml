@@ -1,0 +1,15 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    primary: white
+
+markdown_extensions:
+  - pymdownx.highlight:
+        anchor_linenums: True
+        linenums: None
+        pygments_style: 'xcode'
+        noclasses: True
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.inlinehilite

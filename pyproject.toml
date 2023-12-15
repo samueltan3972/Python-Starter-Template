@@ -1,0 +1,33 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = ["setuptools","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "putyournamehere"
+version = "0.0.1"
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy==1.26.*",
+]
+
+# [project.urls]
+# "Homepage" = "https://github.com/pypa/sampleproject"
+# "Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+[tool.setuptools.packages.find]
+exclude = ["tests", "examples"]
+
+# Configuration for tool compatible with pyproject.toml
+[tool.isort]
+profile = "black"
+skip_gitignore = "True"
+line_length = 143
+
+[tool.black]
+line-length = 143

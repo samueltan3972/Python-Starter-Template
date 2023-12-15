@@ -1,0 +1,18 @@
+image: python:3.10
+
+# Sample bitbucket pipeline
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: UnitTest
+          script:
+            - apt-get update
+            - pip install --no-cache-dir .
+            - python3 -m unittest discover ./tests
+      - step:
+          name: Lint code
+          script:
+            # Enforce style consistency across Python projects https://flake8.pycqa.org
+            - pip install flake8
+            - flake8 .

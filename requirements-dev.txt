@@ -1,0 +1,13 @@
+# dev-dependencies
+black==23.10.*
+build==1.0.*
+flake8
+flake8-bugbear
+isort==5.12.*
+mkdocs==1.5.*
+mkdocs-material==9.*
+pre-commit
+pydoc-markdown==4.8.*
+pymdown-extensions==10.3.*
+setuptools==68.2.*
+wheel==0.41.*

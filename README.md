@@ -34,6 +34,14 @@ TODO (Optional, if precommit is used): Setup VSCode to use black, isort and flak
 6. Write documentation
 7. Refactor code
 
+## TODO: for enhancement of this repository
+1. Add external reading resources in README (eg: other readme template link)
+2. List down the tools used in this repository
+3. Include the instruction to explain the file structure and how to use this repository
+4. Provide instruction to build the package
+5. Add Github Pipeline config file
+6. Provide instruction on how to publish package
+
 ---
 
 # Name of Project (Repo) - Template start here
